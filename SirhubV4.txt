@@ -1,0 +1,646 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local sirhurtv4hubbygeregee = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Main2 = Instance.new("Frame")
+local ScriptStatus = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local help = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local XeroxEspScript = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local OWLHUB = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local DarkDex = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local PrisonLife = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local ScriptDumper = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local RemoteSpy = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local Main2_2 = Instance.new("Frame")
+local UserProfil = Instance.new("ImageLabel")
+local Accountage = Instance.new("TextLabel")
+local NAME = Instance.new("TextLabel")
+local Credist = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local back = Instance.new("TextButton")
+
+--Properties:
+
+sirhurtv4hubbygeregee.Name = "sirhurtv4 hub bygeregee"
+sirhurtv4hubbygeregee.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+sirhurtv4hubbygeregee.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = sirhurtv4hubbygeregee
+Main.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+Main.BorderColor3 = Color3.fromRGB(59, 59, 59)
+Main.Position = UDim2.new(0.280451149, 0, 0.0373691916, 0)
+Main.Size = UDim2.new(0, 584, 0, 26)
+
+Main2.Name = "Main2"
+Main2.Parent = Main
+Main2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Main2.BorderColor3 = Color3.fromRGB(35, 35, 35)
+Main2.Position = UDim2.new(0, 0, 0.970404088, 0)
+Main2.Size = UDim2.new(0, 584, 0, 293)
+
+ScriptStatus.Name = "Script Status"
+ScriptStatus.Parent = Main
+ScriptStatus.BackgroundColor3 = Color3.fromRGB(87, 176, 28)
+ScriptStatus.BorderColor3 = Color3.fromRGB(172, 172, 172)
+ScriptStatus.Position = UDim2.new(0.159246579, 0, 0.254242539, 0)
+ScriptStatus.Size = UDim2.new(0, 10, 0, 10)
+ScriptStatus.Font = Enum.Font.SourceSans
+ScriptStatus.Text = ""
+ScriptStatus.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScriptStatus.TextSize = 17.000
+
+ImageLabel.Parent = Main
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0, 0, 3.31712812e-07, 0)
+ImageLabel.Size = UDim2.new(0, 39, 0, 22)
+ImageLabel.Image = "rbxassetid://10584158816"
+
+help.Name = "help"
+help.Parent = Main
+help.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+help.BackgroundTransparency = 1.000
+help.BorderColor3 = Color3.fromRGB(59, 59, 59)
+help.Position = UDim2.new(0.0667808205, 0, 2.93438262e-07, 0)
+help.Size = UDim2.new(0, 54, 0, 22)
+help.Font = Enum.Font.SourceSans
+help.Text = "Help"
+help.TextColor3 = Color3.fromRGB(255, 255, 255)
+help.TextSize = 14.000
+help.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.736301363, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 113, 0, 25)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "https://sirhurt.net/"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+XeroxEspScript.Name = "Xerox Esp Script\\n"
+XeroxEspScript.Parent = Main
+XeroxEspScript.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+XeroxEspScript.BorderColor3 = Color3.fromRGB(44, 44, 44)
+XeroxEspScript.Position = UDim2.new(0.0102739725, 0, 1.23076952, 0)
+XeroxEspScript.Size = UDim2.new(0, 572, 0, 21)
+XeroxEspScript.Font = Enum.Font.SourceSans
+XeroxEspScript.Text = "Xerox Esp Script"
+XeroxEspScript.TextColor3 = Color3.fromRGB(255, 255, 255)
+XeroxEspScript.TextSize = 14.000
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = XeroxEspScript
+
+OWLHUB.Name = "OWLHUB"
+OWLHUB.Parent = Main
+OWLHUB.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+OWLHUB.BorderColor3 = Color3.fromRGB(44, 44, 44)
+OWLHUB.Position = UDim2.new(0.0102739725, 0, 2.30769253, 0)
+OWLHUB.Size = UDim2.new(0, 572, 0, 21)
+OWLHUB.Font = Enum.Font.SourceSans
+OWLHUB.Text = "OwlHub"
+OWLHUB.TextColor3 = Color3.fromRGB(255, 255, 255)
+OWLHUB.TextSize = 14.000
+
+UICorner_2.CornerRadius = UDim.new(0, 4)
+UICorner_2.Parent = OWLHUB
+
+DarkDex.Name = "Dark Dex"
+DarkDex.Parent = Main
+DarkDex.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+DarkDex.BorderColor3 = Color3.fromRGB(44, 44, 44)
+DarkDex.Position = UDim2.new(0.0102739725, 0, 4.53846169, 0)
+DarkDex.Size = UDim2.new(0, 572, 0, 21)
+DarkDex.Font = Enum.Font.SourceSans
+DarkDex.Text = "Dark Dex"
+DarkDex.TextColor3 = Color3.fromRGB(255, 255, 255)
+DarkDex.TextSize = 14.000
+
+UICorner_3.CornerRadius = UDim.new(0, 4)
+UICorner_3.Parent = DarkDex
+
+PrisonLife.Name = "Prison Life "
+PrisonLife.Parent = Main
+PrisonLife.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+PrisonLife.BorderColor3 = Color3.fromRGB(44, 44, 44)
+PrisonLife.Position = UDim2.new(0.0102739725, 0, 3.46153879, 0)
+PrisonLife.Size = UDim2.new(0, 572, 0, 21)
+PrisonLife.Font = Enum.Font.SourceSans
+PrisonLife.Text = "Prison Life "
+PrisonLife.TextColor3 = Color3.fromRGB(255, 255, 255)
+PrisonLife.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 4)
+UICorner_4.Parent = PrisonLife
+
+ScriptDumper.Name = "Script Dumper"
+ScriptDumper.Parent = Main
+ScriptDumper.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ScriptDumper.BorderColor3 = Color3.fromRGB(44, 44, 44)
+ScriptDumper.Position = UDim2.new(0.0102739725, 0, 6.73076916, 0)
+ScriptDumper.Size = UDim2.new(0, 572, 0, 21)
+ScriptDumper.Font = Enum.Font.SourceSans
+ScriptDumper.Text = "Script Dumper"
+ScriptDumper.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptDumper.TextSize = 14.000
+
+UICorner_5.CornerRadius = UDim.new(0, 4)
+UICorner_5.Parent = ScriptDumper
+
+RemoteSpy.Name = "RemoteSpy "
+RemoteSpy.Parent = Main
+RemoteSpy.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+RemoteSpy.BorderColor3 = Color3.fromRGB(44, 44, 44)
+RemoteSpy.Position = UDim2.new(0.0102739725, 0, 5.65384626, 0)
+RemoteSpy.Size = UDim2.new(0, 572, 0, 21)
+RemoteSpy.Font = Enum.Font.SourceSans
+RemoteSpy.Text = "RemoteSpy "
+RemoteSpy.TextColor3 = Color3.fromRGB(255, 255, 255)
+RemoteSpy.TextSize = 14.000
+
+UICorner_6.CornerRadius = UDim.new(0, 4)
+UICorner_6.Parent = RemoteSpy
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(59, 59, 59)
+Close.Position = UDim2.new(0.92979455, 0, 2.93438262e-07, 0)
+Close.Size = UDim2.new(0, 41, 0, 22)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 14.000
+Close.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+TextLabel_2.Parent = Main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.190068498, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 55, 0, 23)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Script Status"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+Main2_2.Name = "Main2"
+Main2_2.Parent = Main
+Main2_2.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+Main2_2.BorderColor3 = Color3.fromRGB(59, 59, 59)
+Main2_2.Position = UDim2.new(0, 0, 7.85501909, 0)
+Main2_2.Size = UDim2.new(0, 584, 0, 17)
+
+UserProfil.Name = "User Profil"
+UserProfil.Parent = Main2_2
+UserProfil.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+UserProfil.BorderColor3 = Color3.fromRGB(30, 30, 30)
+UserProfil.Position = UDim2.new(0.00972873252, 0, 1.39592791, 0)
+UserProfil.Size = UDim2.new(0, 88, 0, 80)
+UserProfil.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+Accountage.Name = "Account age"
+Accountage.Parent = Main2_2
+Accountage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Accountage.BackgroundTransparency = 1.000
+Accountage.Position = UDim2.new(0.174806222, 0, 1.65888929, 0)
+Accountage.Size = UDim2.new(0, 118, 0, 29)
+Accountage.Font = Enum.Font.SourceSans
+Accountage.Text = "Account age :"
+Accountage.TextColor3 = Color3.fromRGB(255, 255, 255)
+Accountage.TextScaled = true
+Accountage.TextSize = 14.000
+Accountage.TextWrapped = true
+
+NAME.Name = "NAME"
+NAME.Parent = Main2_2
+NAME.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NAME.BackgroundTransparency = 1.000
+NAME.Position = UDim2.new(0.174806222, 0, 3.04756975, 0)
+NAME.Size = UDim2.new(0, 118, 0, 29)
+NAME.Font = Enum.Font.SourceSans
+NAME.Text = "Account name :"
+NAME.TextColor3 = Color3.fromRGB(255, 255, 255)
+NAME.TextScaled = true
+NAME.TextSize = 14.000
+NAME.TextWrapped = true
+
+Credist.Name = "Credist"
+Credist.Parent = Main
+Credist.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Credist.BorderColor3 = Color3.fromRGB(38, 38, 38)
+Credist.Position = UDim2.new(0, 0, 0.961538315, 0)
+Credist.Size = UDim2.new(0, 584, 0, 291)
+Credist.Visible = false
+
+Frame.Parent = Credist
+Frame.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+Frame.BorderColor3 = Color3.fromRGB(51, 51, 51)
+Frame.Position = UDim2.new(0, 0, 0.886597931, 0)
+Frame.Size = UDim2.new(0, 584, 0, 35)
+
+Frame_2.Parent = Credist
+Frame_2.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+Frame_2.BorderColor3 = Color3.fromRGB(59, 59, 59)
+Frame_2.Position = UDim2.new(0, 0, 0.0893470794, 0)
+Frame_2.Size = UDim2.new(0, 584, 0, 0)
+
+TextLabel_3.Parent = Credist
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Size = UDim2.new(0, 102, 0, 23)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Sirhub V4 - Credits"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = Credist
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.00171232875, 0, 0.109965637, 0)
+TextLabel_4.Size = UDim2.new(0, 583, 0, 212)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "script developer geregee#8596 if there is a place you don't like, you can tell me and I can fix it for you"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 26.000
+TextLabel_4.TextWrapped = true
+
+back.Name = "back"
+back.Parent = Credist
+back.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+back.BorderColor3 = Color3.fromRGB(255, 255, 255)
+back.Position = UDim2.new(0.756849289, 0, 0.917525768, 0)
+back.Size = UDim2.new(0, 128, 0, 18)
+back.Font = Enum.Font.SourceSans
+back.Text = "Back To Main"
+back.TextColor3 = Color3.fromRGB(255, 255, 255)
+back.TextSize = 14.000
+
+-- Scripts:
+
+local function HTUV_fake_script() -- ScriptStatus.Hover 
+	local script = Instance.new('LocalScript', ScriptStatus)
+
+	local ts = game:GetService("TweenService")
+	local transitionInfo = TweenInfo.new(0.18, Enum.EasingStyle.Quad,Enum.EasingDirection.In)
+	
+	local showtext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(250,250,250)})
+	local hidetext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(202, 202, 202)})
+	
+	script.Parent.MouseEnter:Connect(function()
+		showtext:Play()
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		hidetext:Play()
+	end)
+																																																																																																																																																																																																																																																																																																																																																																										--[[ --]]																																																																																																																																																																																																																																																																																																																																																																																																																																							
+end
+coroutine.wrap(HTUV_fake_script)()
+local function CNSFPF_fake_script() -- help.Hover 
+	local script = Instance.new('LocalScript', help)
+
+	local ts = game:GetService("TweenService")
+	local transitionInfo = TweenInfo.new(0.18, Enum.EasingStyle.Quad,Enum.EasingDirection.In)
+	
+	local showtext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(250,250,250)})
+	local hidetext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(202, 202, 202)})
+	
+	script.Parent.MouseEnter:Connect(function()
+		showtext:Play()
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		hidetext:Play()
+	end)
+																																																																																																																																																																																																																																																																																																																																																																										--[[ --]]																																																																																																																																																																																																																																																																																																																																																																																																																																							
+end
+coroutine.wrap(CNSFPF_fake_script)()
+local function YGQGSB_fake_script() -- help.Açma 
+	local script = Instance.new('LocalScript', help)
+
+	local frame = script.Parent.Parent.Credist
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+	
+end
+coroutine.wrap(YGQGSB_fake_script)()
+local function VNDQR_fake_script() -- XeroxEspScript.Hover 
+	local script = Instance.new('LocalScript', XeroxEspScript)
+
+	local ts = game:GetService("TweenService")
+	local transitionInfo = TweenInfo.new(0.18, Enum.EasingStyle.Quad,Enum.EasingDirection.In)
+	
+	local showtext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(250,250,250)})
+	local hidetext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(202, 202, 202)})
+	
+	script.Parent.MouseEnter:Connect(function()
+		showtext:Play()
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		hidetext:Play()
+	end)
+																																																																																																																																																																																																																																																																																																																																																																										--[[ --]]																																																																																																																																																																																																																																																																																																																																																																																																																																							
+end
+coroutine.wrap(VNDQR_fake_script)()
+local function OBIUQTL_fake_script() -- XeroxEspScript.LocalScript 
+	local script = Instance.new('LocalScript', XeroxEspScript)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ProtectorX22dasd/Esp/main/V3Esp.lua", true))() 
+	end)
+end
+coroutine.wrap(OBIUQTL_fake_script)()
+local function BFTVAXQ_fake_script() -- OWLHUB.Hover 
+	local script = Instance.new('LocalScript', OWLHUB)
+
+	local ts = game:GetService("TweenService")
+	local transitionInfo = TweenInfo.new(0.18, Enum.EasingStyle.Quad,Enum.EasingDirection.In)
+	
+	local showtext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(250,250,250)})
+	local hidetext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(202, 202, 202)})
+	
+	script.Parent.MouseEnter:Connect(function()
+		showtext:Play()
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		hidetext:Play()
+	end)
+																																																																																																																																																																																																																																																																																																																																																																										--[[ --]]																																																																																																																																																																																																																																																																																																																																																																																																																																							
+end
+coroutine.wrap(BFTVAXQ_fake_script)()
+local function ZFONFDV_fake_script() -- OWLHUB.LocalScript 
+	local script = Instance.new('LocalScript', OWLHUB)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+	end)
+end
+coroutine.wrap(ZFONFDV_fake_script)()
+local function APMKQJJ_fake_script() -- DarkDex.Hover 
+	local script = Instance.new('LocalScript', DarkDex)
+
+	local ts = game:GetService("TweenService")
+	local transitionInfo = TweenInfo.new(0.18, Enum.EasingStyle.Quad,Enum.EasingDirection.In)
+	
+	local showtext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(250,250,250)})
+	local hidetext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(202, 202, 202)})
+	
+	script.Parent.MouseEnter:Connect(function()
+		showtext:Play()
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		hidetext:Play()
+	end)
+																																																																																																																																																																																																																																																																																																																																																																										--[[ --]]																																																																																																																																																																																																																																																																																																																																																																																																																																							
+end
+coroutine.wrap(APMKQJJ_fake_script)()
+local function HTCIGYP_fake_script() -- DarkDex.LocalScript 
+	local script = Instance.new('LocalScript', DarkDex)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))() 
+	end)
+end
+coroutine.wrap(HTCIGYP_fake_script)()
+local function JIDJ_fake_script() -- PrisonLife.Hover 
+	local script = Instance.new('LocalScript', PrisonLife)
+
+	local ts = game:GetService("TweenService")
+	local transitionInfo = TweenInfo.new(0.18, Enum.EasingStyle.Quad,Enum.EasingDirection.In)
+	
+	local showtext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(250,250,250)})
+	local hidetext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(202, 202, 202)})
+	
+	script.Parent.MouseEnter:Connect(function()
+		showtext:Play()
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		hidetext:Play()
+	end)
+																																																																																																																																																																																																																																																																																																																																																																										--[[ --]]																																																																																																																																																																																																																																																																																																																																																																																																																																							
+end
+coroutine.wrap(JIDJ_fake_script)()
+local function AMQKKJL_fake_script() -- PrisonLife.LocalScript 
+	local script = Instance.new('LocalScript', PrisonLife)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ProtectorX22dasd/Prison-Life/main/Prison%20Life.lua", true))() 
+	end)
+end
+coroutine.wrap(AMQKKJL_fake_script)()
+local function CIXILL_fake_script() -- ScriptDumper.Hover 
+	local script = Instance.new('LocalScript', ScriptDumper)
+
+	local ts = game:GetService("TweenService")
+	local transitionInfo = TweenInfo.new(0.18, Enum.EasingStyle.Quad,Enum.EasingDirection.In)
+	
+	local showtext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(250,250,250)})
+	local hidetext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(202, 202, 202)})
+	
+	script.Parent.MouseEnter:Connect(function()
+		showtext:Play()
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		hidetext:Play()
+	end)
+																																																																																																																																																																																																																																																																																																																																																																										--[[ --]]																																																																																																																																																																																																																																																																																																																																																																																																																																							
+end
+coroutine.wrap(CIXILL_fake_script)()
+local function ODADIOO_fake_script() -- ScriptDumper.LocalScript 
+	local script = Instance.new('LocalScript', ScriptDumper)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://cdn.synapse.to/synapsedistro/hub/ScriptDump.lua", true))() 
+	end)
+end
+coroutine.wrap(ODADIOO_fake_script)()
+local function TEWVJ_fake_script() -- RemoteSpy.Hover 
+	local script = Instance.new('LocalScript', RemoteSpy)
+
+	local ts = game:GetService("TweenService")
+	local transitionInfo = TweenInfo.new(0.18, Enum.EasingStyle.Quad,Enum.EasingDirection.In)
+	
+	local showtext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(250,250,250)})
+	local hidetext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(202, 202, 202)})
+	
+	script.Parent.MouseEnter:Connect(function()
+		showtext:Play()
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		hidetext:Play()
+	end)
+																																																																																																																																																																																																																																																																																																																																																																										--[[ --]]																																																																																																																																																																																																																																																																																																																																																																																																																																							
+end
+coroutine.wrap(TEWVJ_fake_script)()
+local function KWCO_fake_script() -- RemoteSpy.LocalScript 
+	local script = Instance.new('LocalScript', RemoteSpy)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://cdn.synapse.to/synapsedistro/hub/RemoteSpy.lua", true))() 
+	end)
+end
+coroutine.wrap(KWCO_fake_script)()
+local function LNVQ_fake_script() -- Close.Hover 
+	local script = Instance.new('LocalScript', Close)
+
+	local ts = game:GetService("TweenService")
+	local transitionInfo = TweenInfo.new(0.18, Enum.EasingStyle.Quad,Enum.EasingDirection.In)
+	
+	local showtext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(250,250,250)})
+	local hidetext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(202, 202, 202)})
+	
+	script.Parent.MouseEnter:Connect(function()
+		showtext:Play()
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		hidetext:Play()
+	end)
+																																																																																																																																																																																																																																																																																																																																																																										--[[ --]]																																																																																																																																																																																																																																																																																																																																																																																																																																							
+end
+coroutine.wrap(LNVQ_fake_script)()
+local function YCYKHJ_fake_script() -- Main.e ile açıkp kapama 
+	local script = Instance.new('LocalScript', Main)
+
+	player = game.Players.LocalPlayer
+	
+	player:GetMouse().KeyDown:Connect(function(key)
+		if key == "z" and script.Parent.Visible == false then
+			script.Parent.Visible = true
+		else
+			if key == "z" and script.Parent.Visible == true then
+				script.Parent.Visible = false
+			end
+		end
+	end)
+end
+coroutine.wrap(YCYKHJ_fake_script)()
+local function HHLY_fake_script() -- UserProfil.LocalScript 
+	local script = Instance.new('LocalScript', UserProfil)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	-- Fetch the thumbnail
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	-- Set the ImageLabel's content to the user thumbnail
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+	--imageLabel.Size = UDim2.new(0, 420, 0, 420) -- Lmao
+end
+coroutine.wrap(HHLY_fake_script)()
+local function HZITZOT_fake_script() -- Accountage.LocalScript 
+	local script = Instance.new('LocalScript', Accountage)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	local target = script.Parent
+	
+	local accountage = player.AccountAge
+	
+	target.Text = "Account age : "..accountage
+end
+coroutine.wrap(HZITZOT_fake_script)()
+local function MSSAKB_fake_script() -- NAME.LocalScript 
+	local script = Instance.new('LocalScript', NAME)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	local target = script.Parent
+	
+	
+	target.Text = "Account name : "..player.Name
+end
+coroutine.wrap(MSSAKB_fake_script)()
+local function IWUXNEI_fake_script() -- back.Hover 
+	local script = Instance.new('LocalScript', back)
+
+	local ts = game:GetService("TweenService")
+	local transitionInfo = TweenInfo.new(0.18, Enum.EasingStyle.Quad,Enum.EasingDirection.In)
+	
+	local showtext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(250,250,250)})
+	local hidetext = ts:Create(script.Parent, transitionInfo,{TextColor3 = Color3.fromRGB(202, 202, 202)})
+	
+	script.Parent.MouseEnter:Connect(function()
+		showtext:Play()
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		hidetext:Play()
+	end)
+																																																																																																																																																																																																																																																																																																																																																																										--[[ --]]																																																																																																																																																																																																																																																																																																																																																																																																																																							
+end
+coroutine.wrap(IWUXNEI_fake_script)()
+local function KPKSIII_fake_script() -- Credist.çık 
+	local script = Instance.new('LocalScript', Credist)
+
+	local frame = script.Parent
+	local close = script.Parent.back
+	
+	close.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+end
+coroutine.wrap(KPKSIII_fake_script)()
+local function GKCA_fake_script() -- Main.çık 
+	local script = Instance.new('LocalScript', Main)
+
+	local frame = script.Parent
+	local close = script.Parent.Close
+	
+	close.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+end
+coroutine.wrap(GKCA_fake_script)()
+local function FQXJGG_fake_script() -- sirhurtv4hubbygeregee.harket etdirme 
+	local script = Instance.new('Script', sirhurtv4hubbygeregee)
+
+	frame = script.Parent.Main
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(FQXJGG_fake_script)()
